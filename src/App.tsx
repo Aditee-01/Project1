@@ -128,7 +128,7 @@ export default function App() {
         <div className="sidebar-bottom">
           <div className="demo-side-card"><span className="live-indicator" /><div><strong>Demo environment</strong><small>Simulated data only</small></div><ShieldCheck size={16} /></div>
           <button className="side-link" onClick={() => setShowResetConfirm(true)}><RefreshCw size={16} /> Reset demo</button>
-          <div className="user-profile"><img className="avatar" src="./11170.webp" alt="Aditi Sharma" /><div><strong>Aditi Sharma</strong><small>Demo account</small></div><Settings2 size={16} /></div>
+          <div className="user-profile"><div className="avatar" aria-hidden="true">AS</div><div><strong>Aditi Sharma</strong><small>Demo account</small></div><Settings2 size={16} /></div>
         </div>
       </aside>
       {mobileNavOpen && <button className="nav-scrim" aria-label="Close navigation menu" onClick={() => setMobileNavOpen(false)} />}
@@ -140,7 +140,7 @@ export default function App() {
           <div className="topbar-right">
             <span className="demo-chip"><i /> DEMO MODE</span>
             <button className="top-icon" aria-label={`${unread} unread notifications`} onClick={() => navigate('notifications')}><Bell size={19} />{unread > 0 && <b>{unread}</b>}</button>
-            <img className="top-avatar" src="./11170.webp" alt="Aditi Sharma" />
+            <div className="top-avatar" aria-label="Aditi Sharma">AS</div>
           </div>
         </header>
 
