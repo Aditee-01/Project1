@@ -113,7 +113,7 @@ export default function App() {
           <button className="icon-button mobile-close" onClick={() => setMobileNavOpen(false)} aria-label="Close menu"><X size={19} /></button>
         </div>
         <div className="campus-select">
-          <div className="campus-emblem">U</div>
+          <img className="campus-emblem" src="./IMG-20261010-WA0037.jpg" alt="United College" />
           <div><span>CAMPUS NAME</span><strong>United College</strong><small>Naini, Prayagraj</small></div>
           <ChevronDown size={15} />
         </div>

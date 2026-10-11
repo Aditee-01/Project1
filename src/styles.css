@@ -29,7 +29,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .brand-name small { color: #8794a7; display: block; font-size: 8px; font-weight: 700; letter-spacing: 1.7px; margin-top: 6px; }
 .mobile-close, .mobile-menu { display: none !important; }
 .campus-select { align-items: center; background: #1d344d; border: 1px solid #31465e; border-radius: 10px; display: flex; gap: 10px; margin-bottom: 31px; padding: 11px 10px; }
-.campus-emblem { align-items: center; background: #ecf4ff; border-radius: 8px; color: #28558a; display: flex; font-family: Georgia, serif; font-size: 19px; font-weight: 700; height: 34px; justify-content: center; width: 34px; }
+.campus-emblem { background: #ecf4ff; border-radius: 8px; flex: 0 0 34px; height: 34px; object-fit: cover; width: 34px; }
 .campus-select > div:nth-child(2) { flex: 1; min-width: 0; }
 .campus-select span, .campus-select small { color: #90a0b3; display: block; font-size: 9px; letter-spacing: .65px; }
 .campus-select strong { color: #f7f9fc; display: block; font-size: 12px; margin: 3px 0 2px; }
